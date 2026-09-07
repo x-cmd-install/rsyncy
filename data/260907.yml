@@ -5,7 +5,7 @@ about:
   head: 953b1b4
   archived: false
   latestVersion: "v2.2.0"
-  collectedAt: 2026-09-07T05:04:43Z
+  collectedAt: 2026-09-07T19:21:08Z
 timeline:
   created: 2020-11-13
   lastCommit: 2025-12-01
@@ -81,7 +81,7 @@ total:
   commit: 40
 ---
 path: /home/runner/.x-repo/github.com/laktak/rsyncy
-collectedAt: 2026-09-07T05:04:49Z
+collectedAt: 2026-09-07T19:21:09Z
 loc:
   Go:
     code: 303
@@ -112,7 +112,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:04:51+00:00
+  collectedAt: 2026-09-07T19:21:10+00:00
   platform:
     darwin/arm64:
       name:  rsyncy-darwin-arm64.tar.gz
