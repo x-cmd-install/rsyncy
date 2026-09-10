@@ -12,6 +12,17 @@ A status/progress bar for rsync
 x install rsyncy
 ```
 
+## Code insight
+
+Total: **642** lines of code across **9** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 303 | 22 | 43 | 1 |
+| Python | 275 | 27 | 47 | 2 |
+| Bash | 64 | 4 | 16 | 4 |
+| Markdown | 0 | 109 | 73 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/laktak/rsyncy>
@@ -23,7 +34,6 @@ x install rsyncy
 - **Latest**: `v2.2.0` (2025-11-05)
 - **Last commit**: 2025-12-01
 - **Assets in release**: 15
-- **Published**: 2025-11-05T23:09:29Z
 
 ## Popularity
 
@@ -38,27 +48,48 @@ x install rsyncy
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 1 | 1 | 1 | 0 | 1 | 2 |
+| last720d | 2024-09-20 | 4 | 1 | 1 | 2 | 1 | 16 |
 
-## Code size
+## Release assets
 
-Total: **642** lines of code across **9** files in the top 5 languages.
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [rsyncy-android-arm64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-android-arm64.tar.gz) | 1.8 MiB | `native/linux/arm64` |
+| [rsyncy-darwin-amd64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-darwin-amd64.tar.gz) | 1.8 MiB | `native/darwin/x64` |
+| [rsyncy-darwin-arm64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-darwin-arm64.tar.gz) | 1.7 MiB | `native/darwin/arm64` |
+| [rsyncy-freebsd-amd64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-freebsd-amd64.tar.gz) | 1.8 MiB | `native/linux/x64` |
+| [rsyncy-freebsd-arm64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-freebsd-arm64.tar.gz) | 1.7 MiB | `native/linux/arm64` |
+| [rsyncy-freebsd-riscv64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-freebsd-riscv64.tar.gz) | 1.7 MiB | `native/linux/riscv64` |
+| [rsyncy-linux-amd64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-linux-amd64.tar.gz) | 1.9 MiB | `native/linux/x64` |
+| [rsyncy-linux-arm64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-linux-arm64.tar.gz) | 1.8 MiB | `native/linux/arm64` |
+| [rsyncy-linux-riscv64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-linux-riscv64.tar.gz) | 1.8 MiB | `native/linux/riscv64` |
+| [rsyncy-netbsd-amd64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-netbsd-amd64.tar.gz) | 1.8 MiB | `native/linux/x64` |
+| [rsyncy-netbsd-arm64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-netbsd-arm64.tar.gz) | 1.7 MiB | `native/linux/arm64` |
+| [rsyncy-openbsd-amd64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-openbsd-amd64.tar.gz) | 1.8 MiB | `native/linux/x64` |
+| [rsyncy-openbsd-arm64.tar.gz](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-openbsd-arm64.tar.gz) | 1.7 MiB | `native/linux/arm64` |
+| [rsyncy-windows-amd64.zip](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-windows-amd64.zip) | 2.0 MiB | `native/win/x64` |
+| [rsyncy-windows-arm64.zip](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-windows-arm64.zip) | 1.9 MiB | `native/win/arm64` |
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 303 | 22 | 43 | 1 |
-| Python | 275 | 27 | 47 | 2 |
-| Bash | 64 | 4 | 16 | 4 |
-| Markdown | 0 | 109 | 73 | 2 |
+## Distribution status
+
+Reported by **6** distros on [repology.org](https://repology.org/project/rsyncy). **5** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Homebrew | `2.2.0` | ✅ latest |
+| Nix unstable | `2.2.0` | ✅ latest |
 
 ## Improve this data
 
 Install metadata for rsyncy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `rsyncy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/rsyncy.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/rsyncy.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:10:50Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:45:14Z._
