@@ -1,0 +1,59 @@
+- repo: aur
+  srcname: rsyncy-bin
+  binname: rsyncy-bin
+  visiblename: rsyncy-bin
+  version: 2.2.0
+  origversion: 2.2.0-1
+  status: newest
+  summary: A status/progress bar for rsync
+  maintainers:
+    - dominiquini@aur
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: rsyncy
+  visiblename: rsyncy
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: Status/progress bar for rsync
+- repo: homebrew
+  srcname: rsyncy
+  visiblename: rsyncy
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Status/progress bar for rsync
+- repo: nix_stable_25_11
+  srcname: rsyncy
+  visiblename: rsyncy
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: Progress bar wrapper for rsync
+  maintainers:
+    - tabmeier12+nix@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: rsyncy
+  visiblename: rsyncy
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: Progress bar wrapper for rsync
+  maintainers:
+    - tabmeier12+nix@gmail.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: rsyncy
+  visiblename: rsyncy
+  version: 2.2.0
+  origversion: null
+  status: newest
+  summary: Progress bar wrapper for rsync
+  maintainers:
+    - tabmeier12+nix@gmail.com
+  licenses:
+    - MIT
