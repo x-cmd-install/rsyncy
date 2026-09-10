@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1983090,
       "digest": "sha256:956f2722e8614db66864aa063304d2694150ae70416105444692ef969cf17f5e",
-      "download_count": 744,
+      "download_count": 746,
       "created_at": "2025-11-05T21:39:46Z",
       "updated_at": "2025-11-05T21:39:46Z",
       "browser_download_url": "https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-linux-amd64.tar.gz"
