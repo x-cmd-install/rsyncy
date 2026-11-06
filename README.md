@@ -47,12 +47,12 @@ Total: **642** lines of code across **9** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-09 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 360d | 2025-11-10 | 0 | 1 | 1 | 0 | 0 | 1 |
-| last720d | 2024-11-15 | 4 | 1 | 1 | 1 | 1 | 16 |
+| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-10 | 0 | 0 | 1 | 0 | 0 | 0 |
+| 360d | 2025-11-11 | 0 | 1 | 1 | 0 | 0 | 1 |
+| last720d | 2024-11-16 | 4 | 1 | 1 | 1 | 1 | 16 |
 
 ## Release assets
 
@@ -74,15 +74,6 @@ Total: **642** lines of code across **9** files in the top 5 languages.
 | [rsyncy-windows-amd64.zip](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-windows-amd64.zip) | 2.0 MiB | `native/win/x64` |
 | [rsyncy-windows-arm64.zip](https://github.com/laktak/rsyncy/releases/download/v2.2.0/rsyncy-windows-arm64.zip) | 1.9 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **6** distros on [repology.org](https://repology.org/project/rsyncy). **5** are ✅ on the latest upstream release, **0** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `2.2.0` | ✅ latest |
-| Nix unstable | `2.2.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for rsyncy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `rsyncy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -92,4 +83,4 @@ Install metadata for rsyncy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:17:52Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:05:19Z._
